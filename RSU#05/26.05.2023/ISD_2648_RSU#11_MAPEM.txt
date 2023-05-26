@@ -1,0 +1,849 @@
+{
+  "mapData": {
+    "minuteOfTheYear": 209959,
+    "layerType": "intersectionData",
+    "intersectionGeometry": {
+      "referencePoint": {
+        "descriptiveIntersctionName": "Temporary Name",
+        "layerID": "1",
+        "intersectionID": "11341",
+        "msgCount": "1",
+        "masterLaneWidth": "325",
+        "referenceLat": 48.755649263920766,
+        "referenceLon": 11.458971896681042,
+        "referenceElevation": "414"
+      },
+      "referencePointChild": {
+        "speedLimitType": [
+          {
+            "speedLimitType": "Vehicle Max Speed",
+            "velocity": "31"
+          }
+        ]
+      },
+      "verifiedPoint": {
+        "verifiedMapLat": 48.75553622388945,
+        "verifiedMapLon": 11.460560339033451,
+        "verifiedMapElevation": "412",
+        "verifiedSurveyedLat": "48.755530787384124",
+        "verifiedSurveyedLon": "11.460570493254238",
+        "verifiedSurveyedElevation": "350"
+      },
+      "laneList": {
+        "approach": [
+          {
+            "approachType": "Egress",
+            "approachID": "05",
+            "drivingLanes": [
+              {
+                "laneID": "05",
+                "descriptiveName": "RSU#5_Egress_ManchingerStr.,AmAuwaldsee.",
+                "laneType": "Vehicle",
+                "typeAttributes": [
+                  "0"
+                ],
+                "sharedWith": [
+                  "3"
+                ],
+                "connections": [
+                  {
+                    "connectionId": "",
+                    "remoteID": "",
+                    "fromLane": "05",
+                    "toLane": "2",
+                    "signal_id": "5",
+                    "maneuvers": [
+                      "1"
+                    ]
+                  },
+                  {
+                    "connectionId": "",
+                    "remoteID": "",
+                    "fromLane": "05",
+                    "toLane": "4",
+                    "signal_id": "5",
+                    "maneuvers": [
+                      "1"
+                    ]
+                  }
+                ],
+                "laneManeuvers": [
+                  1,
+                  2,
+                  8
+                ],
+                "laneNodes": [
+                  {
+                    "nodeNumber": 0,
+                    "nodeLat": 48.755677868403794,
+                    "nodeLong": 11.458939120949905,
+                    "nodeElev": "413",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 1,
+                    "nodeLat": 48.75571986559377,
+                    "nodeLong": 11.45890559333696,
+                    "nodeElev": 413,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 2,
+                    "nodeLat": 48.75577977118706,
+                    "nodeLong": 11.458887196738255,
+                    "nodeElev": 413,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 3,
+                    "nodeLat": 48.75584585695069,
+                    "nodeLong": 11.458882794560374,
+                    "nodeElev": 413,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 4,
+                    "nodeLat": 48.75597317861163,
+                    "nodeLong": 11.45888552035707,
+                    "nodeElev": 413,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 5,
+                    "nodeLat": 48.75608546069437,
+                    "nodeLong": 11.458893523396732,
+                    "nodeElev": 413,
+                    "laneWidthDelta": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "approachType": "Ingress",
+            "approachID": "06",
+            "drivingLanes": [
+              {
+                "laneID": "06",
+                "descriptiveName": "RSU#5_Ingress_MailingerSpitz.",
+                "laneType": "Vehicle",
+                "typeAttributes": [
+                  "0"
+                ],
+                "sharedWith": [
+                  "3"
+                ],
+                "connections": [
+                  {
+                    "connectionId": "",
+                    "remoteID": "",
+                    "fromLane": "06",
+                    "toLane": "",
+                    "signal_id": "",
+                    "maneuvers": []
+                  }
+                ],
+                "laneManeuvers": [
+                  0
+                ],
+                "laneNodes": [
+                  {
+                    "nodeNumber": 0,
+                    "nodeLat": 48.75568936237474,
+                    "nodeLong": 11.458966613591837,
+                    "nodeElev": "413",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 1,
+                    "nodeLat": 48.75572428634817,
+                    "nodeLong": 11.458939791501843,
+                    "nodeElev": 413,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 2,
+                    "nodeLat": 48.755783086749084,
+                    "nodeLong": 11.458919047970012,
+                    "nodeElev": 413,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 3,
+                    "nodeLat": 48.75584585695069,
+                    "nodeLong": 11.458918333830024,
+                    "nodeElev": 413,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 4,
+                    "nodeLat": 48.75598644080735,
+                    "nodeLong": 11.458924077111774,
+                    "nodeElev": 413,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 5,
+                    "nodeLat": 48.756085018621704,
+                    "nodeLong": 11.458931744875022,
+                    "nodeElev": 413,
+                    "laneWidthDelta": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "approachType": "Ingress",
+            "approachID": "02",
+            "drivingLanes": [
+              {
+                "laneID": "02",
+                "descriptiveName": "RSU#5_Ingress_AmAuwaldsee.",
+                "laneType": "Vehicle",
+                "typeAttributes": [
+                  "0"
+                ],
+                "sharedWith": [
+                  "3"
+                ],
+                "connections": [
+                  {
+                    "connectionId": "",
+                    "remoteID": "",
+                    "fromLane": "02",
+                    "toLane": "",
+                    "signal_id": "",
+                    "maneuvers": []
+                  }
+                ],
+                "laneManeuvers": [
+                  0
+                ],
+                "laneNodes": [
+                  {
+                    "nodeNumber": 0,
+                    "nodeLat": 48.75563863415629,
+                    "nodeLong": 11.458999638290157,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 1,
+                    "nodeLat": 48.755607973983146,
+                    "nodeLong": 11.459082517733242,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 2,
+                    "nodeLat": 48.75557879692692,
+                    "nodeLong": 11.459176395048226,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 3,
+                    "nodeLat": 48.75555978762398,
+                    "nodeLong": 11.459410417785108,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 4,
+                    "nodeLat": 48.75554210454379,
+                    "nodeLong": 11.459641758311554,
+                    "nodeElev": "413",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 5,
+                    "nodeLat": 48.75552221107412,
+                    "nodeLong": 11.45989321540774,
+                    "nodeElev": "413",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 6,
+                    "nodeLat": 48.755512264335145,
+                    "nodeLong": 11.46018658201831,
+                    "nodeElev": "413",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 7,
+                    "nodeLat": 48.755484685282184,
+                    "nodeLong": 11.460831798273777,
+                    "nodeElev": "411",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 8,
+                    "nodeLat": 48.75545722567872,
+                    "nodeLong": 11.461530704011276,
+                    "nodeElev": "411",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 9,
+                    "nodeLat": 48.75543379555021,
+                    "nodeLong": 11.462197903503306,
+                    "nodeElev": 411,
+                    "laneWidthDelta": "-8"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "approachType": "Ingress",
+            "approachID": "04",
+            "drivingLanes": [
+              {
+                "laneID": "04",
+                "descriptiveName": "RSU#5_Ingress_ManchingerStr.",
+                "laneType": "Vehicle",
+                "typeAttributes": [
+                  "0"
+                ],
+                "sharedWith": [
+                  "3"
+                ],
+                "connections": [
+                  {
+                    "connectionId": "",
+                    "remoteID": "",
+                    "fromLane": "04",
+                    "toLane": "",
+                    "signal_id": "",
+                    "maneuvers": []
+                  }
+                ],
+                "laneManeuvers": [
+                  0
+                ],
+                "laneNodes": [
+                  {
+                    "nodeNumber": 0,
+                    "nodeLat": 48.75565001585989,
+                    "nodeLong": 11.458920107036121,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 1,
+                    "nodeLat": 48.755569752959765,
+                    "nodeLong": 11.458700461472446,
+                    "nodeElev": 414,
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 2,
+                    "nodeLat": 48.75551780890821,
+                    "nodeLong": 11.458554616356857,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "-1"
+                  },
+                  {
+                    "nodeNumber": 3,
+                    "nodeLat": 48.75547470635604,
+                    "nodeLong": 11.45844229885421,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "-9"
+                  },
+                  {
+                    "nodeNumber": 4,
+                    "nodeLat": 48.7553862907491,
+                    "nodeLong": 11.458306512023041,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 5,
+                    "nodeLat": 48.75525479826689,
+                    "nodeLong": 11.458209992199558,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 6,
+                    "nodeLat": 48.75508194485217,
+                    "nodeLong": 11.458172441273206,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 7,
+                    "nodeLat": 48.75473402581881,
+                    "nodeLong": 11.45816774740786,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "75"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "approachType": "Egress",
+            "approachID": "03",
+            "drivingLanes": [
+              {
+                "laneID": "03",
+                "descriptiveName": "RSU#5_Egress_MailingerSpitz,AmAuwaldsee.",
+                "laneType": "Vehicle",
+                "typeAttributes": [
+                  "0"
+                ],
+                "sharedWith": [
+                  "3"
+                ],
+                "connections": [
+                  {
+                    "connectionId": "",
+                    "remoteID": "",
+                    "fromLane": "03",
+                    "toLane": "2",
+                    "signal_id": "3",
+                    "maneuvers": [
+                      "2"
+                    ]
+                  },
+                  {
+                    "connectionId": "",
+                    "remoteID": "",
+                    "fromLane": "03",
+                    "toLane": "6",
+                    "signal_id": "3",
+                    "maneuvers": [
+                      "1"
+                    ]
+                  }
+                ],
+                "laneManeuvers": [
+                  1,
+                  2,
+                  8
+                ],
+                "laneNodes": [
+                  {
+                    "nodeNumber": 0,
+                    "nodeLat": 48.75563145784611,
+                    "nodeLong": 11.4589373643824,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 1,
+                    "nodeLat": 48.75555649065405,
+                    "nodeLong": 11.458739018227154,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 2,
+                    "nodeLat": 48.75549681023376,
+                    "nodeLong": 11.458568027401855,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "-18"
+                  },
+                  {
+                    "nodeNumber": 3,
+                    "nodeLat": 48.75545642910875,
+                    "nodeLong": 11.45846094166227,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "8"
+                  },
+                  {
+                    "nodeNumber": 4,
+                    "nodeLat": 48.755365318018306,
+                    "nodeLong": 11.458322015342253,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 5,
+                    "nodeLat": 48.7552473528858,
+                    "nodeLong": 11.458244187508695,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 6,
+                    "nodeLat": 48.75508335211986,
+                    "nodeLong": 11.458207819362634,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 7,
+                    "nodeLat": 48.754735208370185,
+                    "nodeLong": 11.458202727822096,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "75"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "approachType": "Egress",
+            "approachID": "01",
+            "drivingLanes": [
+              {
+                "laneID": "01",
+                "descriptiveName": "RSU#5_Egress_MailingerSpitz",
+                "laneType": "Vehicle",
+                "typeAttributes": [
+                  "0"
+                ],
+                "sharedWith": [
+                  "3"
+                ],
+                "connections": [
+                  {
+                    "connectionId": "1",
+                    "remoteID": "",
+                    "fromLane": "01",
+                    "toLane": "6",
+                    "signal_id": "1",
+                    "maneuvers": [
+                      "2"
+                    ]
+                  },
+                  {
+                    "connectionId": "2",
+                    "remoteID": "",
+                    "fromLane": "01",
+                    "toLane": "4",
+                    "signal_id": "1",
+                    "maneuvers": [
+                      "1"
+                    ]
+                  }
+                ],
+                "laneManeuvers": [
+                  1,
+                  2,
+                  8
+                ],
+                "laneNodes": [
+                  {
+                    "nodeNumber": 0,
+                    "nodeLat": 48.75565434048373,
+                    "nodeLong": 11.45901747693985,
+                    "nodeElev": "413",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 1,
+                    "nodeLat": 48.75562614990326,
+                    "nodeLong": 11.459101773459125,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 2,
+                    "nodeLat": 48.75560178491088,
+                    "nodeLong": 11.45918913554129,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 3,
+                    "nodeLat": 48.755582996655775,
+                    "nodeLong": 11.459405388643347,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 4,
+                    "nodeLat": 48.75556420839186,
+                    "nodeLong": 11.459638405550978,
+                    "nodeElev": "413",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 5,
+                    "nodeLat": 48.75554431492976,
+                    "nodeLong": 11.45991836111655,
+                    "nodeElev": "413",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 6,
+                    "nodeLat": 48.755535473387724,
+                    "nodeLong": 11.460178200115074,
+                    "nodeElev": "413",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 7,
+                    "nodeLat": 48.755510104736125,
+                    "nodeLong": 11.460803299802594,
+                    "nodeElev": "411",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 8,
+                    "nodeLat": 48.75548573968924,
+                    "nodeLong": 11.4614908061518,
+                    "nodeElev": "411",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 9,
+                    "nodeLat": 48.75545595023314,
+                    "nodeLong": 11.462201401251969,
+                    "nodeElev": "411",
+                    "laneWidthDelta": "-8"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "approachType": "Both",
+            "approachID": "07",
+            "drivingLanes": [
+              {
+                "laneID": "07",
+                "descriptiveName": "RSU#5_Ingress,Egress_Pommernweg",
+                "laneType": "Sidewalk",
+                "typeAttributes": [
+                  "1",
+                  "3"
+                ],
+                "sharedWith": [
+                  "6",
+                  "7",
+                  "9"
+                ],
+                "connections": [
+                  {
+                    "connectionId": "",
+                    "remoteID": "",
+                    "fromLane": "07",
+                    "toLane": "8",
+                    "signal_id": "7",
+                    "maneuvers": [
+                      "10",
+                      "9",
+                      "0"
+                    ]
+                  }
+                ],
+                "laneManeuvers": [
+                  0,
+                  9
+                ],
+                "laneNodes": [
+                  {
+                    "nodeNumber": 0,
+                    "nodeLat": 48.75546945709608,
+                    "nodeLong": 11.458537767567064,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 1,
+                    "nodeLat": 48.75545569701549,
+                    "nodeLong": 11.458553442891194,
+                    "nodeElev": 414,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 2,
+                    "nodeLat": 48.75551316709857,
+                    "nodeLong": 11.45870934629031,
+                    "nodeElev": 414,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 3,
+                    "nodeLat": 48.75556345336767,
+                    "nodeLong": 11.458852676834569,
+                    "nodeElev": 414,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 4,
+                    "nodeLat": 48.75557643978375,
+                    "nodeLong": 11.458979661501866,
+                    "nodeElev": 414,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 5,
+                    "nodeLat": 48.75555350663745,
+                    "nodeLong": 11.459135146971473,
+                    "nodeElev": 414,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 6,
+                    "nodeLat": 48.75552725872102,
+                    "nodeLong": 11.459383669234796,
+                    "nodeElev": 414,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 7,
+                    "nodeLat": 48.75550404966347,
+                    "nodeLong": 11.459637640900516,
+                    "nodeElev": 414,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 8,
+                    "nodeLat": 48.755501286679696,
+                    "nodeLong": 11.45979354429963,
+                    "nodeElev": 413,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 9,
+                    "nodeLat": 48.75549990477789,
+                    "nodeLong": 11.45988951825644,
+                    "nodeElev": "413",
+                    "laneWidthDelta": "-25"
+                  },
+                  {
+                    "nodeNumber": 10,
+                    "nodeLat": 48.75548360358012,
+                    "nodeLong": 11.460191684700655,
+                    "nodeElev": "413",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 11,
+                    "nodeLat": 48.75546923605585,
+                    "nodeLong": 11.46050935883079,
+                    "nodeElev": "412",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 12,
+                    "nodeLat": 48.75545431593211,
+                    "nodeLong": 11.460828709341213,
+                    "nodeElev": "411",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 13,
+                    "nodeLat": 48.755436632816,
+                    "nodeLong": 11.461179911084296,
+                    "nodeElev": "411",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 14,
+                    "nodeLat": 48.75542392307322,
+                    "nodeLong": 11.461531112827373,
+                    "nodeElev": "411",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 15,
+                    "nodeLat": 48.755405134749815,
+                    "nodeLong": 11.461905783898978,
+                    "nodeElev": "411",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 16,
+                    "nodeLat": 48.75539187240003,
+                    "nodeLong": 11.46219747412926,
+                    "nodeElev": "411",
+                    "laneWidthDelta": "0"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "approachType": "Both",
+            "approachID": "08",
+            "drivingLanes": [
+              {
+                "laneID": "08",
+                "descriptiveName": "RSU#5_Ingress,Egress_Pommernweg",
+                "laneType": "Sidewalk",
+                "typeAttributes": [
+                  "1",
+                  "3"
+                ],
+                "sharedWith": [
+                  "6",
+                  "7",
+                  "9"
+                ],
+                "connections": [
+                  {
+                    "connectionId": "",
+                    "remoteID": "",
+                    "fromLane": "08",
+                    "toLane": "7",
+                    "signal_id": "8",
+                    "maneuvers": [
+                      "10",
+                      "9",
+                      "0"
+                    ]
+                  }
+                ],
+                "laneManeuvers": [
+                  0,
+                  9
+                ],
+                "laneNodes": [
+                  {
+                    "nodeNumber": 0,
+                    "nodeLat": 48.75551532263475,
+                    "nodeLong": 11.458494014032384,
+                    "nodeElev": "414",
+                    "laneWidthDelta": "0"
+                  },
+                  {
+                    "nodeNumber": 1,
+                    "nodeLat": 48.75557411888051,
+                    "nodeLong": 11.458437017090919,
+                    "nodeElev": 414,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 2,
+                    "nodeLat": 48.75561169539215,
+                    "nodeLong": 11.458281113691804,
+                    "nodeElev": 414,
+                    "laneWidthDelta": 0
+                  },
+                  {
+                    "nodeNumber": 3,
+                    "nodeLat": 48.7556271680656,
+                    "nodeLong": 11.458108446486216,
+                    "nodeElev": 414,
+                    "laneWidthDelta": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "approachType": "Crosswalk",
+            "approachID": -1,
+            "crosswalkLanes": []
+          }
+        ]
+      }
+    },
+    "spatData": {
+      "intersections": {
+        "status": "00",
+        "states": []
+      }
+    }
+  },
+  "messageType": "Frame+Map",
+  "nodeOffsets": "Tight",
+  "enableElevation": true
+}
